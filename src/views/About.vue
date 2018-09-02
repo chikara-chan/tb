@@ -47,6 +47,8 @@ export default {
               )}`
           )
           .join("\n");
+
+      console.log(this.input2);
     }
   }
 };
