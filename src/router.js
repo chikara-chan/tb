@@ -7,12 +7,12 @@ Vue.use(Router);
 export default new Router({
   routes: [
     {
-      path: "/tb",
+      path: "/",
       name: "home",
       component: Home
     },
     {
-      path: "/tb/about",
+      path: "/about",
       name: "about",
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
